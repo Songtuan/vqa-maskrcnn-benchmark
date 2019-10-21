@@ -124,7 +124,7 @@ _C.MODEL.RPN.PRE_NMS_TOP_N_TRAIN = 12000
 _C.MODEL.RPN.PRE_NMS_TOP_N_TEST = 6000
 # Number of top scoring RPN proposals to keep after applying NMS
 _C.MODEL.RPN.POST_NMS_TOP_N_TRAIN = 2000
-_C.MODEL.RPN.POST_NMS_TOP_N_TEST = 1000
+_C.MODEL.RPN.POST_NMS_TOP_N_TEST = 100
 # NMS threshold used on RPN proposals
 _C.MODEL.RPN.NMS_THRESH = 0.7
 # Proposal height and width both need to be greater than RPN_MIN_SIZE
