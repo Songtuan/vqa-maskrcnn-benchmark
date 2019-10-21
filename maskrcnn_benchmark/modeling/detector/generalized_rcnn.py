@@ -66,4 +66,4 @@ class GeneralizedRCNN(nn.Module):
         # if self.return_feats and not self.training:
         #     return (x, result)
 
-        return x, result
+        return x, proposals, result
